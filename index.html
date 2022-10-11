@@ -1,12 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yıldız Konyalı QR</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-    Test
+  
+  <div class="container">
+    <div class="head">
+      <div class="logo">
+        <img src="/assets/img/logo.jpeg" alt="">
+      </div>
+      <h1>Yıldız Konyalı Etli Ekmek - Fırın Kebap</h1>
+    </div>
+
+    <div class="menu-list" id="categoryList">
+      <div class="row">
+        <div class="col-3">
+          <div class="category-list">
+            <span class="item active">Tümü</span>
+            <span class="item" v-for="(item, index) in productCategoryData" :data-index="index">{{item.name}}</span>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="product-list">
+            <div class="head-item" v-for="(item, index) in productCategoryData" :data-index="index">
+              <span class="category-title">{{item.name}}</span>
+              <div class="product-item" v-for="(v, i) in item.dishes_list">
+                <figure>
+                  <img src="/assets/img/logo.jpeg" alt="">
+                </figure>
+                <div class="content">
+                  <span class="product-title">{{v.name}}</span>
+                  <span class="price">{{v.sale_price_display[0]}} TL</span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.10/dist/vue.js"></script>
+
+  <script>
+
+    var getProductData = new Vue({
+      el: '#categoryList',
+      data: {
+        serviceURL: '/assets/product.json',
+        productCategoryData: {},
+        activeItemList: [],
+      },
+      methods: {
+        categoryList : function(){
+          var thisElement = this;
+          $.get(this.serviceURL, function (data) {
+            thisElement.productCategoryData = data.data.items;
+            $.each(data.data.items, function(i,v){
+              console.log(v);
+            });
+          });
+        }
+      }
+    });
+
+    getProductData.categoryList();
+
+  </script>
 </body>
+<style>
+  body {
+    background-color:#ecf0f1;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    margin:0;
+  }
+  figure {
+    margin:0;
+  }
+  .head {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:20px;
+  }
+  .head .logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .head .logo img {
+    width:60px;
+    height:60px;
+    object-fit: cover;
+    border-radius:100%;
+  }
+  .head  h1 {
+    font-size:18px;
+    font-weight:700;
+    padding-left:20px;
+  }
+
+  .menu-list {
+    margin-top:10px;
+    padding-top:10px;
+    border-top:1px solid #e5e5e5;
+
+  }
+  .category-list {
+    width:calc(100% + 24px);
+    margin-left:-12px;
+  }
+  .category-list .item {
+    display:block;
+    cursor:pointer;
+    line-height:1.2;
+    font-size:14px;
+    padding:8px 12px;
+  }
+  
+  .category-list .item.active {
+    background-color:#e67e22;
+    color:white;
+    font-weight:600;
+    border-radius:0 5px 5px 0;
+
+  }
+
+  .product-list {
+    width:100%;
+    height:calc(100vh - 100px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .product-list .head-item {
+    width:100%;
+    margin-top:20px;
+  }
+  .category-list .item:first-child {
+    margin-top:0;
+  }
+  .product-list .head-item .category-title {
+    display:block;
+    font-size:17px;
+    font-weight:600;
+  }
+
+  .product-item {
+    width:100%;
+    margin-top:10px;
+    padding-bottom:10px;
+    border-bottom:1px solid #e5e5e5;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .product-item figure {
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .product-item figure img {
+    width:80px;
+    height:50px;
+    object-fit: cover;
+    border-radius:5px;
+  }
+  .product-item .content {
+    width:100%;
+    padding-left:10px;
+
+  }
+  .product-item .content .product-title {
+    display:block;
+    font-weight:500;
+    font-size:14px;
+  }
+  .product-item .content .price {
+    display:block;
+    font-weight:500;
+    font-size:13px;
+    margin-top:5px;
+  }
+  
+</style>
 </html>

@@ -1,0 +1,1942 @@
+{
+    "code": 0,
+    "data": {
+      "items": [
+        {
+          "category_id": "65276814643593216",
+          "name": "Ana Yemekler",
+          "dishes_list": [
+            {
+              "id": "D211214230940",
+              "dishes_code": "",
+              "name": "Ezogelin Çorbası",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                20
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214230940001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 20,
+                  "spec": {
+                    "id": "65276871058894849",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214528975",
+              "dishes_code": "",
+              "name": "Bamya Çorbası ",
+              "description": "",
+              "imgs": [
+                "https://res.disoo.com/GCP/business/gcp_merchant_c4399aa441165b654014edfe900058a4.jpeg"
+              ],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                35
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214528975001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 35,
+                  "spec": {
+                    "id": "65276922267021313",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214532980",
+              "dishes_code": "",
+              "name": "Pilav",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                20
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214532980001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 20,
+                  "spec": {
+                    "id": "65276954538127361",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214293094",
+              "dishes_code": "",
+              "name": "Yoğurt",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                20
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214293094001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 20,
+                  "spec": {
+                    "id": "65276999773696001",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214648240",
+              "dishes_code": "",
+              "name": "Fırın Kebabı Tandır",
+              "description": "",
+              "imgs": [
+                "https://res.disoo.com/GCP/business/gcp_merchant_d4e18fa5f431cc29a51f71ce86e6f550.jpeg"
+              ],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                75
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214648240001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 75,
+                  "spec": {
+                    "id": "65277063183183873",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214463055",
+              "dishes_code": "",
+              "name": "Bıçak Arası Kaşarlı",
+              "description": "",
+              "imgs": [
+                "https://res.disoo.com/GCP/business/gcp_merchant_0a8963fb2870bd337d5582f9c96d77d0.jpeg"
+              ],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               60
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214463055001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":60,
+                  "spec": {
+                    "id": "65277145345273857",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214729443",
+              "dishes_code": "",
+              "name": "Kuşbaşılı Bıçak Arası",
+              "description": "",
+              "imgs": [
+                "https://res.disoo.com/GCP/business/gcp_merchant_606306969497f44df2606d6c25aa3568.jpeg"
+              ],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               55
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214729443001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":55,
+                  "spec": {
+                    "id": "65277213016174593",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214035411",
+              "dishes_code": "",
+              "name": "Konya Karışık Pide",
+              "description": "",
+              "imgs": [
+                "https://res.disoo.com/GCP/business/gcp_merchant_1951622fc58d108211d4788cf76f35eb.jpeg"
+              ],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                8000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214035411001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 8000,
+                  "spec": {
+                    "id": "65277279823048705",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214471835",
+              "dishes_code": "",
+              "name": "Mevlana",
+              "description": "",
+              "imgs": [
+                "https://res.disoo.com/GCP/business/gcp_merchant_a58a569d8dc44d1a0dab0fb0e8fb04eb.jpeg"
+              ],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                5000
+              ],
+              "sku_list": [
+                {
+                  "id": "D2112144718351",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 5000,
+                  "spec": {
+                    "id": "65277332109373441",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214550238",
+              "dishes_code": "",
+              "name": "Sucuklu Kaşarlı",
+              "description": "",
+              "imgs": [
+                "https://res.disoo.com/GCP/business/gcp_merchant_6c3705fbeb1c5a04968c70a952ea2584.jpeg"
+              ],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               60
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214550238001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":60,
+                  "spec": {
+                    "id": "65277396433219585",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214244608",
+              "dishes_code": "",
+              "name": "Konya Etli Ekmek (Kıymalı)",
+              "description": "",
+              "imgs": [
+                "https://res.disoo.com/GCP/business/gcp_merchant_3d6a2a300854817ad0e5715e15a2fbdc.jpeg"
+              ],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                5000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214244608001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 5000,
+                  "spec": {
+                    "id": "65277474166124545",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214308645",
+              "dishes_code": "",
+              "name": "Kavurmalı",
+              "description": "",
+              "imgs": [
+                "https://res.disoo.com/GCP/business/gcp_merchant_b9eba00971d2bafcd3170bf2a2cb291c.jpeg"
+              ],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               60
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214308645001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":60,
+                  "spec": {
+                    "id": "65277502788055041",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214008214",
+              "dishes_code": "",
+              "name": "Pastırmalı",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               60
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214008214001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":60,
+                  "spec": {
+                    "id": "65277532450172929",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214103765",
+              "dishes_code": "",
+              "name": "Kavurmalı Kapalı Pide",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               60
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214103765001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":60,
+                  "spec": {
+                    "id": "65277588104523777",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214354407",
+              "dishes_code": "",
+              "name": "Kaşarlı Karışık",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                6500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214354407001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 6500,
+                  "spec": {
+                    "id": "65277643708411905",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214997291",
+              "dishes_code": "",
+              "name": "Mantarlı Kaşarlı",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               55
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214997291001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":55,
+                  "spec": {
+                    "id": "65277678919462913",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214071112",
+              "dishes_code": "",
+              "name": "Sebzeli Kaşarlı",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                5000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214071112001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 5000,
+                  "spec": {
+                    "id": "65277732052905985",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214225990",
+              "dishes_code": "",
+              "name": "Kaşarlı Pide ",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                5000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214225990001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 5000,
+                  "spec": {
+                    "id": "65277784284573697",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214517653",
+              "dishes_code": "",
+              "name": "Konya Tulum Peynirli",
+              "description": "",
+              "imgs": [
+                "https://res.disoo.com/GCP/business/gcp_merchant_d23ada57fb325fc56cdaecfca0ab52ea.jpeg"
+              ],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                5000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214517653001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 5000,
+                  "spec": {
+                    "id": "65277828228427777",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214656017",
+              "dishes_code": "",
+              "name": "Karışık Pide",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                6500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214656017001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 6500,
+                  "spec": {
+                    "id": "65277860289556481",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214153362",
+              "dishes_code": "",
+              "name": "Kıymalı Kekikli ",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               55
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214153362001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":55,
+                  "spec": {
+                    "id": "65277906305265665",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214223199",
+              "dishes_code": "",
+              "name": "Tavuk Şiş",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               55
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214223199001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":55,
+                  "spec": {
+                    "id": "65277942196056065",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214402384",
+              "dishes_code": "",
+              "name": "Tavuk Kanat",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               55
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214402384001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":55,
+                  "spec": {
+                    "id": "65277972051111937",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214447975",
+              "dishes_code": "",
+              "name": "Tavuk Pirzola",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               60
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214447975001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":60,
+                  "spec": {
+                    "id": "65278021594099713",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214152045",
+              "dishes_code": "",
+              "name": "Köfte",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               60
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214152045001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":60,
+                  "spec": {
+                    "id": "65278048198569985",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214656136",
+              "dishes_code": "",
+              "name": "Fırın Köfte",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               60
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214656136001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":60,
+                  "spec": {
+                    "id": "65278097406275585",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214236920",
+              "dishes_code": "",
+              "name": "Kaşarlı Köfte ",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                7000
+              ],
+              "sku_list": [
+                {
+                  "id": "D2112142369201",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 7000,
+                  "spec": {
+                    "id": "65278130503528449",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214932996",
+              "dishes_code": "",
+              "name": "Adana Kebap",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                5800
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214932996001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 5800,
+                  "spec": {
+                    "id": "65278217824743425",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214178992",
+              "dishes_code": "",
+              "name": "Urfa Kebap",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                5800
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214178992001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 5800,
+                  "spec": {
+                    "id": "65278252184350721",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214277313",
+              "dishes_code": "",
+              "name": "Beyti ",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                7000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214277313001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 7000,
+                  "spec": {
+                    "id": "65278280504291329",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214590240",
+              "dishes_code": "",
+              "name": "Patlıcanlı Kebap ",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                7000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214590240001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 7000,
+                  "spec": {
+                    "id": "65278317141667841",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214781768",
+              "dishes_code": "",
+              "name": "Domatesli Kebap",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                7000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214781768001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 7000,
+                  "spec": {
+                    "id": "65278355821539329",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214201643",
+              "dishes_code": "",
+              "name": "Yoğurtlu Kebap",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               60
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214201643001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":60,
+                  "spec": {
+                    "id": "65278394753069057",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214852548",
+              "dishes_code": "",
+              "name": "İskender Kebap",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+               60
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214852548001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price":60,
+                  "spec": {
+                    "id": "65278436821938177",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214932807",
+              "dishes_code": "",
+              "name": "Karışık Kebap",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                200
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214932807001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 200,
+                  "spec": {
+                    "id": "65278482695041025",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214243825",
+              "dishes_code": "",
+              "name": "Biftek",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                100
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214243825001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 100,
+                  "spec": {
+                    "id": "65278504945692673",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214724646",
+              "dishes_code": "",
+              "name": "Dana Şiş",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                75
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214724646001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 75,
+                  "spec": {
+                    "id": "65278546888732673",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214445848",
+              "dishes_code": "",
+              "name": "Kuzu Şiş",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                75
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214445848001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 75,
+                  "spec": {
+                    "id": "65278572520255489",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214577348",
+              "dishes_code": "",
+              "name": "İçli Köfte ",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                1800
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214577348001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 1800,
+                  "spec": {
+                    "id": "65278622231146497",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            }
+          ]
+        },
+        {
+          "category_id": "65278676926291968",
+          "name": "Dürüm Çeşitleri",
+          "dishes_list": [
+            {
+              "id": "D211214376617",
+              "dishes_code": "",
+              "name": "Adana",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                4500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214376617001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 4500,
+                  "spec": {
+                    "id": "65279101208080385",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214979082",
+              "dishes_code": "",
+              "name": "Urfa",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                4500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214979082001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 4500,
+                  "spec": {
+                    "id": "65279128643022849",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214253131",
+              "dishes_code": "",
+              "name": "Tavuk Şiş",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                4500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214253131001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 4500,
+                  "spec": {
+                    "id": "65279174440628225",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214550042",
+              "dishes_code": "",
+              "name": "Et Şiş",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                7000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214550042001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 7000,
+                  "spec": {
+                    "id": "65279210612174849",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214389506",
+              "dishes_code": "",
+              "name": "Tandır Dürüm",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                75
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214389506001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 75,
+                  "spec": {
+                    "id": "65279254161764353",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            }
+          ]
+        },
+        {
+          "category_id": "65279340117917696",
+          "name": "Salata Çeşitleri",
+          "dishes_list": [
+            {
+              "id": "D211214002324",
+              "dishes_code": "",
+              "name": "Çoban",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                2500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214002324001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 2500,
+                  "spec": {
+                    "id": "65279381265952769",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214622120",
+              "dishes_code": "",
+              "name": "Mevsim",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                2500
+              ],
+              "sku_list": [
+                {
+                  "id": "D2112146221201",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 2500,
+                  "spec": {
+                    "id": "65279408944033793",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214775840",
+              "dishes_code": "",
+              "name": "Ezme",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                2500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214775840001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 2500,
+                  "spec": {
+                    "id": "65279441496158209",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            }
+          ]
+        },
+        {
+          "category_id": "65279494371835904",
+          "name": "Tatlı Çeşitleri",
+          "dishes_list": [
+            {
+              "id": "D211214645612",
+              "dishes_code": "",
+              "name": "Saç Arası",
+              "description": "",
+              "imgs": [],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                4000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214645612001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 4000,
+                  "spec": {
+                    "id": "65279565790162945",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214084311",
+              "dishes_code": "",
+              "name": "Baklava",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                35
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214084311001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 35,
+                  "spec": {
+                    "id": "65279591266234369",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214251329",
+              "dishes_code": "",
+              "name": "Künefe",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                35
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214251329001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 35,
+                  "spec": {
+                    "id": "65279632068423681",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214366400",
+              "dishes_code": "",
+              "name": "Katmer ",
+              "description": "",
+              "imgs": [],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                4000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214366400001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 4000,
+                  "spec": {
+                    "id": "65279663945265153",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214857197",
+              "dishes_code": "",
+              "name": "Fırın Sütlaç",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                3000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214857197001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 3000,
+                  "spec": {
+                    "id": "65279714562125825",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214222021",
+              "dishes_code": "",
+              "name": "Soğuk Baklava",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                4000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214222021001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 4000,
+                  "spec": {
+                    "id": "65279787442221057",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214356607",
+              "dishes_code": "",
+              "name": "Kaymaklı Künefe",
+              "description": "",
+              "imgs": [],
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                4500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214356607001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 4500,
+                  "spec": {
+                    "id": "65279839732740097",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            }
+          ]
+        },
+        {
+          "category_id": "65279893605801984",
+          "name": "İçecek Çeşitleri",
+          "dishes_list": [
+            {
+              "id": "D211214683969",
+              "dishes_code": "",
+              "name": "Cola",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                1500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214683969001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 1500,
+                  "spec": {
+                    "id": "65279938424713217",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214199613",
+              "dishes_code": "",
+              "name": "Fanta",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                1500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214199613001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 1500,
+                  "spec": {
+                    "id": "65280001989259265",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214103621",
+              "dishes_code": "",
+              "name": "Cappy",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                1500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214103621001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 1500,
+                  "spec": {
+                    "id": "65280036181356545",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214003539",
+              "dishes_code": "",
+              "name": "Ice Tea",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                1500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214003539001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 1500,
+                  "spec": {
+                    "id": "65280065419849729",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214111443",
+              "dishes_code": "",
+              "name": "Ayran ",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                1500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214111443001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 1500,
+                  "spec": {
+                    "id": "65280093760761857",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214649432",
+              "dishes_code": "",
+              "name": "Şalgam ",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                1500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214649432001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 1500,
+                  "spec": {
+                    "id": "65280138136367105",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214886078",
+              "dishes_code": "",
+              "name": "Soda",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                1000
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214886078001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 1000,
+                  "spec": {
+                    "id": "65280192255602689",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214295305",
+              "dishes_code": "",
+              "name": "Su",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214295305001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 500,
+                  "spec": {
+                    "id": "65280231354904577",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214092974",
+              "dishes_code": "",
+              "name": "1 Lt Ayran",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                20
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214092974001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 20,
+                  "spec": {
+                    "id": "65280307309555713",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214999646",
+              "dishes_code": "",
+              "name": "1 Lt Cola",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                20
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214999646001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 20,
+                  "spec": {
+                    "id": "65280373885743105",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            },
+            {
+              "id": "D211214799929",
+              "dishes_code": "",
+              "name": "2,5 Lt Cola",
+              "description": "",
+              "imgs": null,
+              "spec_type": "single",
+              "stock_status": "in_stock",
+              "currency": "TRY",
+              "sale_price_display": [
+                2500
+              ],
+              "sku_list": [
+                {
+                  "id": "D211214799929001",
+                  "name": "Varsayılan",
+                  "currency": "TRY",
+                  "sale_price": 2500,
+                  "spec": {
+                    "id": "65280428503969793",
+                    "name": "Varsayılan",
+                    "is_default": true
+                  },
+                  "stock_status": "in_stock"
+                }
+              ],
+              "extra_option_list": null,
+              "extra_needing_list": null
+            }
+          ]
+        }
+      ]
+    }
+  }
