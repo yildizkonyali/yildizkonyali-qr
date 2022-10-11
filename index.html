@@ -13,7 +13,7 @@
   <div class="container">
     <div class="head">
       <div class="logo">
-        <img src="/assets/img/logo.jpeg" alt="">
+        <img src="assets/img/logo.jpeg" alt="">
       </div>
       <h1>Yıldız Konyalı Etli Ekmek - Fırın Kebap</h1>
     </div>
@@ -32,7 +32,7 @@
               <span class="category-title">{{item.name}}</span>
               <div class="product-item" v-for="(v, i) in item.dishes_list">
                 <figure>
-                  <img src="/assets/img/logo.jpeg" alt="">
+                  <img src="assets/img/logo.jpeg" alt="">
                 </figure>
                 <div class="content">
                   <span class="product-title">{{v.name}}</span>
@@ -55,7 +55,7 @@
     var getProductData = new Vue({
       el: '#categoryList',
       data: {
-        serviceURL: '/assets/product.json',
+        serviceURL: 'assets/product.json',
         productCategoryData: {},
         activeItemList: [],
       },
