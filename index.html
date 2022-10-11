@@ -9,7 +9,129 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
+  <style>
+    body {
+      background-color:#ecf0f1;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      margin:0;
+    }
+    figure {
+      margin:0;
+    }
+    .head {
+      display:flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top:20px;
+    }
+    .head .logo {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .head .logo img {
+      width:60px;
+      height:60px;
+      object-fit: cover;
+      border-radius:100%;
+    }
+    .head  h1 {
+      font-size:18px;
+      font-weight:700;
+      padding-left:20px;
+    }
   
+    .menu-list {
+      margin-top:10px;
+      padding-top:10px;
+      border-top:1px solid #e5e5e5;
+  
+    }
+    .category-list {
+      width:calc(100% + 24px);
+      margin-left:-12px;
+    }
+    .category-list .item {
+      display:block;
+      cursor:pointer;
+      line-height:1.2;
+      font-size:14px;
+      padding:8px 12px;
+    }
+    
+    .category-list .item.active {
+      background-color:#e67e22;
+      color:white;
+      font-weight:600;
+      border-radius:0 5px 5px 0;
+  
+    }
+  
+    .product-list {
+      width:100%;
+      height:calc(100vh - 120px);
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+    .product-list .head-item {
+      width:100%;
+      margin-top:20px;
+    }
+    .category-list .item:first-child {
+      margin-top:0;
+    }
+    .product-list .head-item .category-title {
+      display:block;
+      font-size:17px;
+      font-weight:600;
+    }
+  
+    .product-item {
+      width:100%;
+      margin-top:10px;
+      padding-bottom:10px;
+      border-bottom:1px solid #e5e5e5;
+      display:flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .product-item figure {
+      flex-grow: 0;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .product-item figure img {
+      width:80px;
+      height:50px;
+      object-fit: cover;
+      border-radius:5px;
+    }
+    .product-item .content {
+      width:100%;
+      padding-left:10px;
+  
+    }
+    .product-item .content .product-title {
+      display:block;
+      font-weight:500;
+      font-size:14px;
+    }
+    .product-item .content .price {
+      display:block;
+      font-weight:500;
+      font-size:13px;
+      margin-top:5px;
+    }
+  
+    [v-cloak] {
+      display:none !important;
+    }
+  
+  
+  </style>  
   <div class="container">
     <div class="head">
       <div class="logo">
@@ -18,12 +140,11 @@
       <h1>Yıldız Konyalı Etli Ekmek - Fırın Kebap</h1>
     </div>
 
-    <div class="menu-list" id="categoryList">
-      <div class="row">
+    <div class="menu-list" id="categoryList" v-cloak>
+      <div class="row" >
         <div class="col-3">
           <div class="category-list">
-            <span class="item active">Tümü</span>
-            <span class="item" v-for="(item, index) in productCategoryData" :data-index="index">{{item.name}}</span>
+            <span class="item" v-for="(item, index) in productCategoryData" :class="index === 0 ? 'active': ''" :data-index="index">{{item.name}}</span>
           </div>
         </div>
         <div class="col-9">
@@ -64,9 +185,6 @@
           var thisElement = this;
           $.get(this.serviceURL, function (data) {
             thisElement.productCategoryData = data.data.items;
-            $.each(data.data.items, function(i,v){
-              console.log(v);
-            });
           });
         }
       }
@@ -74,124 +192,23 @@
 
     getProductData.categoryList();
 
+    $(document).on('click', '.category-list .item', function(){
+      $('.category-list .item').removeClass('active');
+      $(this).addClass('active');
+      var indexNumber = $(this).data('index');
+      if(indexNumber > 0){
+        var totalHeight = 0;
+        for(var i = 0; i < indexNumber; i++){
+          totalHeight += $('.head-item[data-index='+i+']').height() + 20;
+        }
+        console.log(totalHeight);
+        $('.product-list').scrollTop(totalHeight);
+      }else {
+        $('.product-list').scrollTop(0);
+      }
+    });
+
   </script>
 </body>
-<style>
-  body {
-    background-color:#ecf0f1;
-  }
-  h1,h2,h3,h4,h5,h6 {
-    margin:0;
-  }
-  figure {
-    margin:0;
-  }
-  .head {
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top:20px;
-  }
-  .head .logo {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .head .logo img {
-    width:60px;
-    height:60px;
-    object-fit: cover;
-    border-radius:100%;
-  }
-  .head  h1 {
-    font-size:18px;
-    font-weight:700;
-    padding-left:20px;
-  }
 
-  .menu-list {
-    margin-top:10px;
-    padding-top:10px;
-    border-top:1px solid #e5e5e5;
-
-  }
-  .category-list {
-    width:calc(100% + 24px);
-    margin-left:-12px;
-  }
-  .category-list .item {
-    display:block;
-    cursor:pointer;
-    line-height:1.2;
-    font-size:14px;
-    padding:8px 12px;
-  }
-  
-  .category-list .item.active {
-    background-color:#e67e22;
-    color:white;
-    font-weight:600;
-    border-radius:0 5px 5px 0;
-
-  }
-
-  .product-list {
-    width:100%;
-    height:calc(100vh - 100px);
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-  .product-list .head-item {
-    width:100%;
-    margin-top:20px;
-  }
-  .category-list .item:first-child {
-    margin-top:0;
-  }
-  .product-list .head-item .category-title {
-    display:block;
-    font-size:17px;
-    font-weight:600;
-  }
-
-  .product-item {
-    width:100%;
-    margin-top:10px;
-    padding-bottom:10px;
-    border-bottom:1px solid #e5e5e5;
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .product-item figure {
-    flex-grow: 0;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .product-item figure img {
-    width:80px;
-    height:50px;
-    object-fit: cover;
-    border-radius:5px;
-  }
-  .product-item .content {
-    width:100%;
-    padding-left:10px;
-
-  }
-  .product-item .content .product-title {
-    display:block;
-    font-weight:500;
-    font-size:14px;
-  }
-  .product-item .content .price {
-    display:block;
-    font-weight:500;
-    font-size:13px;
-    margin-top:5px;
-  }
-  
-</style>
 </html>
